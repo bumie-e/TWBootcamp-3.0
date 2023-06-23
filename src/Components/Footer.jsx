@@ -113,6 +113,8 @@ const Footer = (props) => {
           </a>
         )}
       </div>
+      
+      <p>Code of Conduct</p>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}
       </p>

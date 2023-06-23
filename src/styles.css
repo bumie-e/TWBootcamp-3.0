@@ -20,6 +20,7 @@ div#main {
   width: 100vw;
 }
 
+
 section {
   position: relative;
   width: 100vw;
@@ -119,6 +120,13 @@ a:hover {
   text-align: center;
 }
 
+.img {
+  border-radius: 50%;
+  height: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 150px;
+}
 img.socialIcon {
   height: 30px;
   width: 30px;
