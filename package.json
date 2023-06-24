@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://bumie-e.github.io/TWBootcamp-3.0/src",
+  "homepage": "http://bumie-e.github.io/TWBootcamp-3.0/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://bumie-e.github.io/TWBootcamp-3.0/src'",
+    "build-gh": "parcel build --public-url 'https://bumie-e.github.io/TWBootcamp-3.0/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
