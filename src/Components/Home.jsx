@@ -20,7 +20,7 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/twc-bg.jpg";
+import image from "../images/kb.jpg";
 
 const imageAltText = "Photo by Unseen Studio on Unsplash";
 
@@ -31,6 +31,9 @@ const Home = ({ name, title }) => {
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "50rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
+        <button className="button" style={{ marginTop: "20px", fontSize: "3rem" }}>
+          Registration is open!
+          </button>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />

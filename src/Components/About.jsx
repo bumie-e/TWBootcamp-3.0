@@ -97,7 +97,7 @@ const About = () => {
           ))}
         </ul>
         <p style={{ padding: "1rem 3rem 0" }}>{description2}</p>
-        <a href="https://forms.office.com/r/TckmfjmkaR">
+        <a href="https://www.eventbrite.com/e/technical-writing-bootcamp-30-tickets-665743746467">
           <button type="button">Register Now!</button>
           </a>
         <hr />
